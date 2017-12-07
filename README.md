@@ -20,12 +20,11 @@ docker images ls
 
 BUILDING IMAGES:
 Create dockerfile in working dir
-run: docker build -t dotnetcore/apiswagger .
-run: docker run --rm -it -p 8080:80 dotnetcore/apiswagger 
+run: docker build -t laxmimanoj/apiswagger .
+run: docker run --rm -d -p 8080:80 dotnetcore/apiswagger 
 
 To push to docker hub:
-docker tag dotnetcore/apiswagger laxmimanoj/dotnetcore:apiswagger (change tag first)
-docker push laxmimanoj/dotnetcore:apiswagger
+docker push laxmimanoj/apiswagger
 
 
 

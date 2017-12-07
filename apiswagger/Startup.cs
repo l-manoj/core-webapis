@@ -48,7 +48,7 @@ namespace apiswagger
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Contacts API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Docker Testing API V1");
             });
         }
     }
