@@ -12,5 +12,20 @@ To run the app in the container:
 dotnet /apiswagger/bin/Debug/netcoreapp2.0/publish/apiswagger.dll
 
 To run the app in the container from localhost's port 8080:
-docker run --rm -it -v -p 8080:80 /Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apiswagger:/apiswagger microsoft/aspnetcore:2
+docker run --rm -it -p 8080:80 -v /Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apiswagger:/apiswagger microsoft/aspnetcore:2
+
+Useful commands:
+docker ps
+docker images ls
+
+BUILDING IMAGES:
+Create dockerfile in working dir
+run: docker build -t dotnetcore/apiswagger .
+run: docker run --rm -it -p 8080:80 dotnetcore/apiswagger 
+
+To push to docker hub:
+docker tag dotnetcore/apiswagger laxmimanoj/dotnetcore:apiswagger (change tag first)
+docker push laxmimanoj/dotnetcore:apiswagger
+
+
 
