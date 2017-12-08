@@ -39,6 +39,10 @@ Above steps to build and publish inside a conatiner can be automated using the D
 NOTE: Be mindful of content root when building images without source code
 NOTE: add dockerfile and .dockerignore files to .dockerignore to avoid cache invalidation and thereby sppeding up the image build process
 
+The drawback with having the image build and publish within  a single container makes the image bloated.
+Hence, multi-stage build is useful where in we build the image in one conatiner and run it on another. 
+
+
 
 
 
