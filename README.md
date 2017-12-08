@@ -37,6 +37,7 @@ dotnet run (to test from host on port 8080)
 
 Above steps to build and publish inside a conatiner can be automated using the Dockerfile and .dockerignore files
 NOTE: Be mindful of content root when building images without source code
+NOTE: add dockerfile and .dockerignore files to .dockerignore to avoid cache invalidation and thereby sppeding up the image build process
 
 
 

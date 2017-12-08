@@ -6,5 +6,5 @@ COPY . .
 RUN dotnet build
 RUN dotnet publish -o /publish
 
-WORKDIR /publish 
+WORKDIR /publish
 ENTRYPOINT [ "dotnet","/publish/apiswagger.dll" ]
