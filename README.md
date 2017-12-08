@@ -36,6 +36,7 @@ dotnet publish (to test from host on port: 5000 using  dotnet bin/debug/netcorea
 dotnet run (to test from host on port 8080)
 
 Above steps to build and publish inside a conatiner can be automated using the Dockerfile and .dockerignore files
+NOTE: Be mindful of content root when building images without source code
 
 
 
