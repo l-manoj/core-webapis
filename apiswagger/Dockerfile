@@ -2,9 +2,11 @@
 FROM microsoft/aspnetcore-build:2 AS build-env
 
 WORKDIR /apiswagger
-COPY . .
 
+COPY *.csproj .
 RUN dotnet restore
+
+COPY . .
 RUN dotnet publish -o /publish
 
 #Runtime stage

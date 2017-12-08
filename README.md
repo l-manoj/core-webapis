@@ -43,7 +43,7 @@ The drawback with having the image build and publish within  a single container 
 Hence, multi-stage build is useful where in we build the image in one conatiner and run it on another. 
 
 
-
+Also, we can perform optimization on mutli-stage build(refer corresponding git check-in of Dockerfile)
 
 
 
