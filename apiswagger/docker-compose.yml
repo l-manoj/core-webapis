@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  apiswagger:
+    build: 
+      context: .
+    image: laxmimanoj/apiswagger:multi
+    ports: 
+      - "8080:80"
