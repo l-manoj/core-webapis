@@ -4964,7 +4964,6 @@
       "path": "microsoft.aspnet.webapi.client/5.2.3",
       "files": [
         "lib/net45/System.Net.Http.Formatting.dll",
-        "lib/net45/System.Net.Http.Formatting.xml",
         "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
         "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
         "microsoft.aspnet.webapi.client.5.2.3.nupkg.sha512",
@@ -4978,7 +4977,6 @@
       "files": [
         "Content/web.config.transform",
         "lib/net45/System.Web.Http.dll",
-        "lib/net45/System.Web.Http.xml",
         "microsoft.aspnet.webapi.core.5.2.3.nupkg.sha512",
         "microsoft.aspnet.webapi.core.nuspec"
       ]
@@ -4989,7 +4987,6 @@
       "path": "microsoft.aspnet.webapi.webhost/4.0.20710",
       "files": [
         "lib/net40/System.Web.Http.WebHost.dll",
-        "lib/net40/System.Web.Http.WebHost.xml",
         "microsoft.aspnet.webapi.webhost.4.0.20710.nupkg.sha512",
         "microsoft.aspnet.webapi.webhost.nuspec"
       ]
@@ -5000,7 +4997,6 @@
       "path": "microsoft.aspnetcore/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.xml",
         "microsoft.aspnetcore.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.nuspec"
       ]
@@ -5028,7 +5024,6 @@
       "path": "microsoft.aspnetcore.antiforgery/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Antiforgery.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Antiforgery.xml",
         "microsoft.aspnetcore.antiforgery.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.antiforgery.nuspec"
       ]
@@ -5039,9 +5034,7 @@
       "path": "microsoft.aspnetcore.applicationinsights.hostingstartup/2.0.0",
       "files": [
         "lib/net461/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll",
-        "lib/net461/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.xml",
         "lib/netcoreapp2.0/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll",
-        "lib/netcoreapp2.0/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.xml",
         "microsoft.aspnetcore.applicationinsights.hostingstartup.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.applicationinsights.hostingstartup.nuspec"
       ]
@@ -5052,7 +5045,6 @@
       "path": "microsoft.aspnetcore.authentication/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.xml",
         "microsoft.aspnetcore.authentication.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.nuspec"
       ]
@@ -5063,7 +5055,6 @@
       "path": "microsoft.aspnetcore.authentication.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.xml",
         "microsoft.aspnetcore.authentication.abstractions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.abstractions.nuspec"
       ]
@@ -5074,7 +5065,6 @@
       "path": "microsoft.aspnetcore.authentication.cookies/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Cookies.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Cookies.xml",
         "microsoft.aspnetcore.authentication.cookies.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.cookies.nuspec"
       ]
@@ -5085,7 +5075,6 @@
       "path": "microsoft.aspnetcore.authentication.core/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.xml",
         "microsoft.aspnetcore.authentication.core.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.core.nuspec"
       ]
@@ -5096,7 +5085,6 @@
       "path": "microsoft.aspnetcore.authentication.facebook/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Facebook.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Facebook.xml",
         "microsoft.aspnetcore.authentication.facebook.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.facebook.nuspec"
       ]
@@ -5107,7 +5095,6 @@
       "path": "microsoft.aspnetcore.authentication.google/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Google.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Google.xml",
         "microsoft.aspnetcore.authentication.google.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.google.nuspec"
       ]
@@ -5118,7 +5105,6 @@
       "path": "microsoft.aspnetcore.authentication.jwtbearer/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
         "microsoft.aspnetcore.authentication.jwtbearer.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
@@ -5129,7 +5115,6 @@
       "path": "microsoft.aspnetcore.authentication.microsoftaccount/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.MicrosoftAccount.xml",
         "microsoft.aspnetcore.authentication.microsoftaccount.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.microsoftaccount.nuspec"
       ]
@@ -5140,7 +5125,6 @@
       "path": "microsoft.aspnetcore.authentication.oauth/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.OAuth.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.OAuth.xml",
         "microsoft.aspnetcore.authentication.oauth.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.oauth.nuspec"
       ]
@@ -5151,7 +5135,6 @@
       "path": "microsoft.aspnetcore.authentication.openidconnect/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.xml",
         "microsoft.aspnetcore.authentication.openidconnect.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.openidconnect.nuspec"
       ]
@@ -5162,7 +5145,6 @@
       "path": "microsoft.aspnetcore.authentication.twitter/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Twitter.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Twitter.xml",
         "microsoft.aspnetcore.authentication.twitter.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.twitter.nuspec"
       ]
@@ -5173,7 +5155,6 @@
       "path": "microsoft.aspnetcore.authorization/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
         "microsoft.aspnetcore.authorization.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
       ]
@@ -5184,7 +5165,6 @@
       "path": "microsoft.aspnetcore.authorization.policy/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.xml",
         "microsoft.aspnetcore.authorization.policy.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authorization.policy.nuspec"
       ]
@@ -5195,9 +5175,7 @@
       "path": "microsoft.aspnetcore.azureappservices.hostingstartup/2.0.0",
       "files": [
         "lib/net461/Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll",
-        "lib/net461/Microsoft.AspNetCore.AzureAppServices.HostingStartup.xml",
         "lib/netcoreapp2.0/Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll",
-        "lib/netcoreapp2.0/Microsoft.AspNetCore.AzureAppServices.HostingStartup.xml",
         "microsoft.aspnetcore.azureappservices.hostingstartup.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.azureappservices.hostingstartup.nuspec"
       ]
@@ -5208,7 +5186,6 @@
       "path": "microsoft.aspnetcore.azureappservicesintegration/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.AzureAppServicesIntegration.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.AzureAppServicesIntegration.xml",
         "microsoft.aspnetcore.azureappservicesintegration.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.azureappservicesintegration.nuspec"
       ]
@@ -5219,7 +5196,6 @@
       "path": "microsoft.aspnetcore.cookiepolicy/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.CookiePolicy.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.CookiePolicy.xml",
         "microsoft.aspnetcore.cookiepolicy.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.cookiepolicy.nuspec"
       ]
@@ -5230,7 +5206,6 @@
       "path": "microsoft.aspnetcore.cors/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Cors.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Cors.xml",
         "microsoft.aspnetcore.cors.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.cors.nuspec"
       ]
@@ -5241,7 +5216,6 @@
       "path": "microsoft.aspnetcore.cryptography.internal/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
         "microsoft.aspnetcore.cryptography.internal.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.internal.nuspec"
       ]
@@ -5252,7 +5226,6 @@
       "path": "microsoft.aspnetcore.cryptography.keyderivation/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
         "microsoft.aspnetcore.cryptography.keyderivation.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
@@ -5263,7 +5236,6 @@
       "path": "microsoft.aspnetcore.dataprotection/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.xml",
         "microsoft.aspnetcore.dataprotection.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.dataprotection.nuspec"
       ]
@@ -5274,7 +5246,6 @@
       "path": "microsoft.aspnetcore.dataprotection.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.xml",
         "microsoft.aspnetcore.dataprotection.abstractions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.dataprotection.abstractions.nuspec"
       ]
@@ -5285,7 +5256,6 @@
       "path": "microsoft.aspnetcore.dataprotection.azurestorage/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.AzureStorage.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.AzureStorage.xml",
         "microsoft.aspnetcore.dataprotection.azurestorage.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.dataprotection.azurestorage.nuspec"
       ]
@@ -5296,7 +5266,6 @@
       "path": "microsoft.aspnetcore.dataprotection.extensions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Extensions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Extensions.xml",
         "microsoft.aspnetcore.dataprotection.extensions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.dataprotection.extensions.nuspec"
       ]
@@ -5307,7 +5276,6 @@
       "path": "microsoft.aspnetcore.diagnostics/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Diagnostics.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Diagnostics.xml",
         "microsoft.aspnetcore.diagnostics.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.diagnostics.nuspec"
       ]
@@ -5318,7 +5286,6 @@
       "path": "microsoft.aspnetcore.diagnostics.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Diagnostics.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Diagnostics.Abstractions.xml",
         "microsoft.aspnetcore.diagnostics.abstractions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.diagnostics.abstractions.nuspec"
       ]
@@ -5329,7 +5296,6 @@
       "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.xml",
         "microsoft.aspnetcore.diagnostics.entityframeworkcore.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.diagnostics.entityframeworkcore.nuspec"
       ]
@@ -5340,7 +5306,6 @@
       "path": "microsoft.aspnetcore.hosting/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.xml",
         "microsoft.aspnetcore.hosting.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.hosting.nuspec"
       ]
@@ -5351,7 +5316,6 @@
       "path": "microsoft.aspnetcore.hosting.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.xml",
         "microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.hosting.abstractions.nuspec"
       ]
@@ -5362,7 +5326,6 @@
       "path": "microsoft.aspnetcore.hosting.server.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.xml",
         "microsoft.aspnetcore.hosting.server.abstractions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.hosting.server.abstractions.nuspec"
       ]
@@ -5384,7 +5347,6 @@
       "path": "microsoft.aspnetcore.http/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.xml",
         "microsoft.aspnetcore.http.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.http.nuspec"
       ]
@@ -5395,7 +5357,6 @@
       "path": "microsoft.aspnetcore.http.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
         "microsoft.aspnetcore.http.abstractions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.http.abstractions.nuspec"
       ]
@@ -5406,7 +5367,6 @@
       "path": "microsoft.aspnetcore.http.extensions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.xml",
         "microsoft.aspnetcore.http.extensions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.http.extensions.nuspec"
       ]
@@ -5417,7 +5377,6 @@
       "path": "microsoft.aspnetcore.http.features/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
         "microsoft.aspnetcore.http.features.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.http.features.nuspec"
       ]
@@ -5428,7 +5387,6 @@
       "path": "microsoft.aspnetcore.httpoverrides/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.HttpOverrides.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.HttpOverrides.xml",
         "microsoft.aspnetcore.httpoverrides.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.httpoverrides.nuspec"
       ]
@@ -5439,7 +5397,6 @@
       "path": "microsoft.aspnetcore.identity/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Identity.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Identity.xml",
         "microsoft.aspnetcore.identity.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.identity.nuspec"
       ]
@@ -5450,7 +5407,6 @@
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
         "microsoft.aspnetcore.identity.entityframeworkcore.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
@@ -5472,7 +5428,6 @@
       "path": "microsoft.aspnetcore.localization/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Localization.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Localization.xml",
         "microsoft.aspnetcore.localization.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.localization.nuspec"
       ]
@@ -5483,7 +5438,6 @@
       "path": "microsoft.aspnetcore.localization.routing/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Localization.Routing.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Localization.Routing.xml",
         "microsoft.aspnetcore.localization.routing.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.localization.routing.nuspec"
       ]
@@ -5494,7 +5448,6 @@
       "path": "microsoft.aspnetcore.middlewareanalysis/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.MiddlewareAnalysis.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.MiddlewareAnalysis.xml",
         "microsoft.aspnetcore.middlewareanalysis.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.middlewareanalysis.nuspec"
       ]
@@ -5505,7 +5458,6 @@
       "path": "microsoft.aspnetcore.mvc/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.xml",
         "microsoft.aspnetcore.mvc.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.nuspec"
       ]
@@ -5516,7 +5468,6 @@
       "path": "microsoft.aspnetcore.mvc.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Abstractions.xml",
         "microsoft.aspnetcore.mvc.abstractions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.abstractions.nuspec"
       ]
@@ -5527,7 +5478,6 @@
       "path": "microsoft.aspnetcore.mvc.apiexplorer/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.ApiExplorer.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.ApiExplorer.xml",
         "microsoft.aspnetcore.mvc.apiexplorer.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.apiexplorer.nuspec"
       ]
@@ -5538,7 +5488,6 @@
       "path": "microsoft.aspnetcore.mvc.core/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.xml",
         "microsoft.aspnetcore.mvc.core.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.core.nuspec"
       ]
@@ -5549,7 +5498,6 @@
       "path": "microsoft.aspnetcore.mvc.cors/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Cors.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Cors.xml",
         "microsoft.aspnetcore.mvc.cors.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.cors.nuspec"
       ]
@@ -5560,7 +5508,6 @@
       "path": "microsoft.aspnetcore.mvc.dataannotations/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.DataAnnotations.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.DataAnnotations.xml",
         "microsoft.aspnetcore.mvc.dataannotations.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.dataannotations.nuspec"
       ]
@@ -5571,7 +5518,6 @@
       "path": "microsoft.aspnetcore.mvc.formatters.json/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Formatters.Json.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Formatters.Json.xml",
         "microsoft.aspnetcore.mvc.formatters.json.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.formatters.json.nuspec"
       ]
@@ -5582,7 +5528,6 @@
       "path": "microsoft.aspnetcore.mvc.formatters.xml/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Formatters.Xml.xml",
         "microsoft.aspnetcore.mvc.formatters.xml.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.formatters.xml.nuspec"
       ]
@@ -5593,7 +5538,6 @@
       "path": "microsoft.aspnetcore.mvc.localization/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Localization.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Localization.xml",
         "microsoft.aspnetcore.mvc.localization.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.localization.nuspec"
       ]
@@ -5604,7 +5548,6 @@
       "path": "microsoft.aspnetcore.mvc.razor/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.xml",
         "microsoft.aspnetcore.mvc.razor.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.razor.nuspec"
       ]
@@ -5615,9 +5558,7 @@
       "path": "microsoft.aspnetcore.mvc.razor.extensions/2.0.0",
       "files": [
         "lib/net46/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll",
-        "lib/net46/Microsoft.AspNetCore.Mvc.Razor.Extensions.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.xml",
         "microsoft.aspnetcore.mvc.razor.extensions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.razor.extensions.nuspec"
       ]
@@ -5642,7 +5583,6 @@
       "path": "microsoft.aspnetcore.mvc.razorpages/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.RazorPages.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.RazorPages.xml",
         "microsoft.aspnetcore.mvc.razorpages.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.razorpages.nuspec"
       ]
@@ -5653,7 +5593,6 @@
       "path": "microsoft.aspnetcore.mvc.taghelpers/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.TagHelpers.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.TagHelpers.xml",
         "microsoft.aspnetcore.mvc.taghelpers.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.taghelpers.nuspec"
       ]
@@ -5664,7 +5603,6 @@
       "path": "microsoft.aspnetcore.mvc.viewfeatures/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.ViewFeatures.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.ViewFeatures.xml",
         "microsoft.aspnetcore.mvc.viewfeatures.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.viewfeatures.nuspec"
       ]
@@ -5675,7 +5613,6 @@
       "path": "microsoft.aspnetcore.nodeservices/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.NodeServices.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.NodeServices.xml",
         "microsoft.aspnetcore.nodeservices.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.nodeservices.nuspec"
       ]
@@ -5686,7 +5623,6 @@
       "path": "microsoft.aspnetcore.owin/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Owin.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Owin.xml",
         "microsoft.aspnetcore.owin.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.owin.nuspec"
       ]
@@ -5697,7 +5633,6 @@
       "path": "microsoft.aspnetcore.razor/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Razor.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Razor.xml",
         "microsoft.aspnetcore.razor.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.razor.nuspec"
       ]
@@ -5708,9 +5643,7 @@
       "path": "microsoft.aspnetcore.razor.language/2.0.0",
       "files": [
         "lib/net46/Microsoft.AspNetCore.Razor.Language.dll",
-        "lib/net46/Microsoft.AspNetCore.Razor.Language.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.xml",
         "microsoft.aspnetcore.razor.language.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.razor.language.nuspec"
       ]
@@ -5721,7 +5654,6 @@
       "path": "microsoft.aspnetcore.razor.runtime/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Runtime.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Runtime.xml",
         "microsoft.aspnetcore.razor.runtime.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.razor.runtime.nuspec"
       ]
@@ -5732,7 +5664,6 @@
       "path": "microsoft.aspnetcore.responsecaching/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCaching.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCaching.xml",
         "microsoft.aspnetcore.responsecaching.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.responsecaching.nuspec"
       ]
@@ -5743,7 +5674,6 @@
       "path": "microsoft.aspnetcore.responsecaching.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCaching.Abstractions.xml",
         "microsoft.aspnetcore.responsecaching.abstractions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.responsecaching.abstractions.nuspec"
       ]
@@ -5754,9 +5684,7 @@
       "path": "microsoft.aspnetcore.responsecompression/2.0.0",
       "files": [
         "lib/net461/Microsoft.AspNetCore.ResponseCompression.dll",
-        "lib/net461/Microsoft.AspNetCore.ResponseCompression.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCompression.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.ResponseCompression.xml",
         "microsoft.aspnetcore.responsecompression.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.responsecompression.nuspec"
       ]
@@ -5767,7 +5695,6 @@
       "path": "microsoft.aspnetcore.rewrite/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Rewrite.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Rewrite.xml",
         "microsoft.aspnetcore.rewrite.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.rewrite.nuspec"
       ]
@@ -5778,7 +5705,6 @@
       "path": "microsoft.aspnetcore.routing/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Routing.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Routing.xml",
         "microsoft.aspnetcore.routing.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.routing.nuspec"
       ]
@@ -5789,7 +5715,6 @@
       "path": "microsoft.aspnetcore.routing.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Routing.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Routing.Abstractions.xml",
         "microsoft.aspnetcore.routing.abstractions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.routing.abstractions.nuspec"
       ]
@@ -5800,7 +5725,6 @@
       "path": "microsoft.aspnetcore.server.httpsys/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.HttpSys.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Server.HttpSys.xml",
         "microsoft.aspnetcore.server.httpsys.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.server.httpsys.nuspec"
       ]
@@ -5811,7 +5735,6 @@
       "path": "microsoft.aspnetcore.server.iisintegration/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.xml",
         "microsoft.aspnetcore.server.iisintegration.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.server.iisintegration.nuspec"
       ]
@@ -5822,7 +5745,6 @@
       "path": "microsoft.aspnetcore.server.kestrel/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.xml",
         "microsoft.aspnetcore.server.kestrel.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.nuspec"
       ]
@@ -5833,7 +5755,6 @@
       "path": "microsoft.aspnetcore.server.kestrel.core/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Core.xml",
         "microsoft.aspnetcore.server.kestrel.core.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.core.nuspec"
       ]
@@ -5844,7 +5765,6 @@
       "path": "microsoft.aspnetcore.server.kestrel.https/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Https.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Https.xml",
         "microsoft.aspnetcore.server.kestrel.https.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.https.nuspec"
       ]
@@ -5855,7 +5775,6 @@
       "path": "microsoft.aspnetcore.server.kestrel.transport.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.xml",
         "microsoft.aspnetcore.server.kestrel.transport.abstractions.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.transport.abstractions.nuspec"
       ]
@@ -5866,7 +5785,6 @@
       "path": "microsoft.aspnetcore.server.kestrel.transport.libuv/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.xml",
         "microsoft.aspnetcore.server.kestrel.transport.libuv.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.transport.libuv.nuspec"
       ]
@@ -5877,7 +5795,6 @@
       "path": "microsoft.aspnetcore.session/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Session.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Session.xml",
         "microsoft.aspnetcore.session.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.session.nuspec"
       ]
@@ -5888,7 +5805,6 @@
       "path": "microsoft.aspnetcore.spaservices/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.SpaServices.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.SpaServices.xml",
         "microsoft.aspnetcore.spaservices.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.spaservices.nuspec"
       ]
@@ -5899,7 +5815,6 @@
       "path": "microsoft.aspnetcore.staticfiles/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.StaticFiles.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.StaticFiles.xml",
         "microsoft.aspnetcore.staticfiles.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.staticfiles.nuspec"
       ]
@@ -5910,7 +5825,6 @@
       "path": "microsoft.aspnetcore.websockets/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.WebSockets.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.WebSockets.xml",
         "microsoft.aspnetcore.websockets.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.websockets.nuspec"
       ]
@@ -5921,7 +5835,6 @@
       "path": "microsoft.aspnetcore.webutilities/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.xml",
         "microsoft.aspnetcore.webutilities.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.webutilities.nuspec"
       ]
@@ -6000,9 +5913,7 @@
       "path": "microsoft.codeanalysis.razor/2.0.0",
       "files": [
         "lib/net46/Microsoft.CodeAnalysis.Razor.dll",
-        "lib/net46/Microsoft.CodeAnalysis.Razor.xml",
         "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll",
-        "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.xml",
         "microsoft.codeanalysis.razor.2.0.0.nupkg.sha512",
         "microsoft.codeanalysis.razor.nuspec"
       ]
@@ -6238,7 +6149,6 @@
       "path": "microsoft.entityframeworkcore/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
         "microsoft.entityframeworkcore.2.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
@@ -6249,9 +6159,7 @@
       "path": "microsoft.entityframeworkcore.design/2.0.0",
       "files": [
         "lib/net461/Microsoft.EntityFrameworkCore.Design.dll",
-        "lib/net461/Microsoft.EntityFrameworkCore.Design.xml",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
         "microsoft.entityframeworkcore.design.2.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
@@ -6262,7 +6170,6 @@
       "path": "microsoft.entityframeworkcore.inmemory/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.xml",
         "microsoft.entityframeworkcore.inmemory.2.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
@@ -6273,7 +6180,6 @@
       "path": "microsoft.entityframeworkcore.relational/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.xml",
         "microsoft.entityframeworkcore.relational.2.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
@@ -6293,7 +6199,6 @@
       "path": "microsoft.entityframeworkcore.sqlite.core/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.xml",
         "microsoft.entityframeworkcore.sqlite.core.2.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
@@ -6304,7 +6209,6 @@
       "path": "microsoft.entityframeworkcore.sqlserver/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.2.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
@@ -6608,7 +6512,6 @@
       "path": "microsoft.extensions.hosting.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
         "microsoft.extensions.hosting.abstractions.2.0.0.nupkg.sha512",
         "microsoft.extensions.hosting.abstractions.nuspec"
       ]
@@ -6619,7 +6522,6 @@
       "path": "microsoft.extensions.identity.core/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.xml",
         "microsoft.extensions.identity.core.2.0.0.nupkg.sha512",
         "microsoft.extensions.identity.core.nuspec"
       ]
@@ -6630,7 +6532,6 @@
       "path": "microsoft.extensions.identity.stores/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.xml",
         "microsoft.extensions.identity.stores.2.0.0.nupkg.sha512",
         "microsoft.extensions.identity.stores.nuspec"
       ]
@@ -6641,7 +6542,6 @@
       "path": "microsoft.extensions.localization/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Localization.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Localization.xml",
         "microsoft.extensions.localization.2.0.0.nupkg.sha512",
         "microsoft.extensions.localization.nuspec"
       ]
@@ -6652,7 +6552,6 @@
       "path": "microsoft.extensions.localization.abstractions/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.xml",
         "microsoft.extensions.localization.abstractions.2.0.0.nupkg.sha512",
         "microsoft.extensions.localization.abstractions.nuspec"
       ]
@@ -7105,7 +7004,6 @@
       "path": "microsoft.net.http.headers/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll",
-        "lib/netstandard2.0/Microsoft.Net.Http.Headers.xml",
         "microsoft.net.http.headers.2.0.0.nupkg.sha512",
         "microsoft.net.http.headers.nuspec"
       ]
@@ -7488,7 +7386,6 @@
       "path": "microsoft.visualstudio.web.browserlink/2.0.0",
       "files": [
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.BrowserLink.dll",
-        "lib/netstandard2.0/Microsoft.VisualStudio.Web.BrowserLink.xml",
         "microsoft.visualstudio.web.browserlink.2.0.0.nupkg.sha512",
         "microsoft.visualstudio.web.browserlink.nuspec"
       ]
@@ -8185,9 +8082,7 @@
       "path": "swashbuckle.aspnetcore.swagger/1.1.0",
       "files": [
         "lib/net451/Swashbuckle.AspNetCore.Swagger.dll",
-        "lib/net451/Swashbuckle.AspNetCore.Swagger.xml",
         "lib/netstandard1.6/Swashbuckle.AspNetCore.Swagger.dll",
-        "lib/netstandard1.6/Swashbuckle.AspNetCore.Swagger.xml",
         "swashbuckle.aspnetcore.swagger.1.1.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swagger.nuspec"
       ]
@@ -8198,9 +8093,7 @@
       "path": "swashbuckle.aspnetcore.swaggergen/1.1.0",
       "files": [
         "lib/net451/Swashbuckle.AspNetCore.SwaggerGen.dll",
-        "lib/net451/Swashbuckle.AspNetCore.SwaggerGen.xml",
         "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerGen.dll",
-        "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerGen.xml",
         "swashbuckle.aspnetcore.swaggergen.1.1.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggergen.nuspec"
       ]
@@ -8211,9 +8104,7 @@
       "path": "swashbuckle.aspnetcore.swaggerui/1.1.0",
       "files": [
         "lib/net451/Swashbuckle.AspNetCore.SwaggerUI.dll",
-        "lib/net451/Swashbuckle.AspNetCore.SwaggerUI.xml",
         "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerUI.dll",
-        "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerUI.xml",
         "swashbuckle.aspnetcore.swaggerui.1.1.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
@@ -12801,23 +12692,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/laxmimanojkumarpoonati/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/root/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apiswagger/apiswagger.csproj",
+      "projectUniqueName": "/apiswagger/apiswagger.csproj",
       "projectName": "apiswagger",
-      "projectPath": "/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apiswagger/apiswagger.csproj",
-      "packagesPath": "/Users/laxmimanojkumarpoonati/.nuget/packages/",
-      "outputPath": "/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apiswagger/obj/",
+      "projectPath": "/apiswagger/apiswagger.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/apiswagger/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/laxmimanojkumarpoonati/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12841,7 +12732,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           },
           "Microsoft.aspnet.webapi.core": {
@@ -12870,6 +12761,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNet.WebApi.WebHost 4.0.20710 requires Microsoft.AspNet.WebApi.Core (>= 4.0.20710 && < 4.1.0) but version Microsoft.AspNet.WebApi.Core 5.2.3 was resolved.",
+      "libraryId": "Microsoft.AspNet.WebApi.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
