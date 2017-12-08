@@ -1,6 +1,9 @@
-FROM microsoft/aspnetcore:2
+FROM microsoft/aspnetcore-build:2
 
 WORKDIR /apiswagger
-COPY /bin/Debug/netcoreapp2.0/publish .
+COPY . .
 
-ENTRYPOINT [ "dotnet","apiswagger.dll"]
+RUN dotnet build
+RUN dotnet publish
+
+ENTRYPOINT [ "dotnet","bin/Debug/netcoreapp2.0/publish/apiswagger.dll" ]

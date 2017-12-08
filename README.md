@@ -35,6 +35,8 @@ dotnet build(just to check, if the build errors found try recreating the image b
 dotnet publish (to test from host on port: 5000 using  dotnet bin/debug/netcoreapp2.0/publish/apiswagger.dll)
 dotnet run (to test from host on port 8080)
 
+Above steps to build and publish inside a conatiner can be automated using the Dockerfile and .dockerignore files
+
 
 
 
