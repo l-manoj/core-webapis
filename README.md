@@ -27,13 +27,14 @@ run: docker run --rm -d -p 8080:80 dotnetcore/apiswagger
 docker push laxmimanoj/apiswagger
 
 ## Steps to build and publish an app from inside a container
-docker run --rm -it -p 8080:80 -v /Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apiswagger:/apiswagger  microsoft/aspnetcore-build:2
+docker run --rm -it -p 8080:80  
+-v /Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apiswagger:/apiswagger  microsoft/aspnetcore-build:2
 cd apiswagger
-rm -rf /bin /obj
-dotnet restore
-dotnet build(just to check, if the build errors found try recreating the image by deleting the obj and bin on itself)
-dotnet publish (to test from host on port: 5000 using  dotnet bin/debug/netcoreapp2.0/publish/apiswagger.dll)
-dotnet run (to test from host on port 8080)
+rm -rf /bin /obj  
+dotnet restore  
+dotnet build(just to check, if the build errors found try recreating the image by deleting the obj and bin on itself)  
+dotnet publish (to test from host on port: 5000 using  dotnet bin/debug/netcoreapp2.0/publish/apiswagger.dll)  
+dotnet run (to test from host on port 8080)  
 
 ### Above steps to build and publish inside a conatiner can be automated using the Dockerfile and .dockerignore files
 NOTE: Be mindful of content root when building images without source code
