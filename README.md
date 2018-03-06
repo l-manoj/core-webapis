@@ -45,11 +45,11 @@ Hence, multi-stage build is useful where in we build the image in one conatiner 
 
 Also, we can perform optimization on mutli-stage build(refer corresponding git check-in of Dockerfile)
 
-## docker-compose.yml streamlines the process of build and running.
+### docker-compose.yml streamlines the process of build and running.
 ### Useful commands
-docker-compose up
-docker-compose up -d --build
-docker-compose down
+docker-compose up  
+docker-compose up -d --build  
+docker-compose down  
 
 
 
