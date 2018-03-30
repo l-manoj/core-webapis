@@ -1,0 +1,5 @@
+/apiswagger
+--output-path=obj/Debug/netcoreapp2.0/
+--application-name=apiswagger
+--content-root=/apiswagger
+--file=
