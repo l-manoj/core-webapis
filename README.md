@@ -52,5 +52,27 @@ docker-compose up
 docker-compose up -d --build  
 docker-compose down  
 
-##Project ABC: Docker deep dive 
+##Project ABC: Docker deep dive   
 
+Docker Certified Associate Exam  
+Docker Deep Dive HandBook  
+Installation  
+Play-with-docker(https://labs.play-with-docker.com/)  
+Docker for Windows/Mac  
+- Good for local development only  
+Docker for Windows Server 2016  
+- Production ready  
+- Preinstall Windows Containers Feature  
+- Run below instructions for clean install(powershell as Admin)  
+-- Install-Module DockerProvider -Force  
+-- Install-Package Docker -ProviderName DockerProvider -Force  
+Docker for Linux  
+- See docker docs for specfic instructions on various flavours of Linux  
+
+Architecture and Theory
+Namespaces manage isolation 
+Control groups set limits on the kernal resources
+DockerEngine=DockerDaemon+containerd+oci(runc on linux) runtime
+container creation =client ->daemon->conatinerd->shim->oci(runc)->container
+Client=dockere.exe, Engine=dockerd.exe
+Windows host has two options for containers i.e native windows conatiners and hyper-v containers
