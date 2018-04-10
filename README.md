@@ -37,12 +37,12 @@ dotnet build(just to check, if the build errors found try recreating the image b
 dotnet publish (to test from host on port: 5000 using  dotnet bin/debug/netcoreapp2.0/publish/apiswagger.dll)  
 dotnet run (to test from host on port 8080)  
 
-### Above steps to build and publish inside a conatiner can be automated using the Dockerfile and .dockerignore files
+### Above steps to build and publish inside a container can be automated using the Dockerfile and .dockerignore files
 NOTE: Be mindful of content root when building images without source code  
 NOTE: add dockerfile and .dockerignore files to .dockerignore to avoid cache invalidation and thereby speeding up the image build process
 
 The drawback with having the image build and publish within  a single container makes the image bloated.
-Hence, multi-stage build is useful where in we build the image in one conatiner and run it on another. 
+Hence, multi-stage build is useful where in we build the image in one container and run it on another. 
 
 Also, we can perform optimization on mutli-stage build(refer corresponding git check-in of Dockerfile)
 
@@ -70,9 +70,39 @@ Docker for Linux
 - See docker docs for specfic instructions on various flavours of Linux  
 
 Architecture and Theory
-Namespaces manage isolation 
-Control groups set limits on the kernal resources
+Kerner Internals:
+Each container is like a virtual OS but all share single kernal on host. 
+Namespaces manage isolation. 
+Below are linux namespaces
+Process Id (pid)  
+Network (net)  
+Filesytem/mount (mnt)  
+Inter-proc comms (ipc)  
+UTS (uts)  
+User (user)
+
+pid namepace gives each container its own isolated process tree completed with its own pid 1
+net namepace gives each container its own isolated network stack like ips, routing tables, etc
+net namepace gives each container its own isolated root file system(ie. C: for windows and / for linux)
+ipc namepace lets all processess in a single container access shared memory but blocks everything from outside
+uts namepace gives each container its own hostname
+user namespace lets map accounts from inside of the container to different users on the host
+Each container is an organized collection of pid, net, mnt, ipc, uts and user.  
+Control groups set limits on the system resources(cgroups in linux and job objects in windows). The idea is to group processes and impose limits. 
+
+Docker Engine:
+ 
 DockerEngine=DockerDaemon+containerd+oci(runc on linux) runtime
-container creation =client ->daemon->conatinerd->shim->oci(runc)->container
+General: 
+Client--via rest-->daemon(Docker API)--GRPC API-->containerd(Execution/lifecycle of containers)-->OCI(runtime)--pops-->container
+Linux
+Client-->daemon-->containerd-->runc(oci reference implementation)-->container
+Windows
+Client-->daemon-->compute services-->container
+container creation =client ->daemon->containerd->shim->oci(runc)->container
 Client=dockere.exe, Engine=dockerd.exe
-Windows host has two options for containers i.e native windows conatiners and hyper-v containers
+Windows host has two options for containers 
+i.e native windows containers (docker container run ..) and 
+hyper-v containers (docker container run .. --isolation=hyperv)
+
+Working with Images: 
