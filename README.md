@@ -72,19 +72,19 @@ Docker Deep Dive HandBook
  Each container is like a virtual OS but all share single kernal on host  
 ###### Namespaces manage isolation  
 Below are linux namespaces  
-Process Id (pid)  
-Network (net)  
-Filesytem/mount (mnt)  
-Inter-proc comms (ipc)  
-UTS (uts)  
-User (user)
+- Process Id (pid)  
+- Network (net)  
+- Filesytem/mount (mnt)  
+- Inter-proc comms (ipc)  
+- UTS (uts)  
+- User (user)
 
-pid namepace gives each container its own isolated process tree completed with its own pid 1  
-net namepace gives each container its own isolated network stack like ips, routing tables, etc  
-net namepace gives each container its own isolated root file system(ie. C: for windows and / for linux)  
-ipc namepace lets all processess in a single container access shared memory but blocks everything from outside  
-uts namepace gives each container its own hostname  
-user namespace lets map accounts from inside of the container to different users on the host    
+- pid namepace gives each container its own isolated process tree completed with its own pid 1  
+- net namepace gives each container its own isolated network stack like ips, routing tables, etc  
+- mnt namepace gives each container its own isolated root file system(ie. C: for windows and / for linux)  
+- ipc namepace lets all processess in a single container access shared memory but blocks everything from outside  
+- uts namepace gives each container its own hostname  
+- user namespace lets map accounts from inside of the container to different users on the host    
 ###### Each container is an organized collection of pid, net, mnt, ipc, uts and user     
 ###### Control groups set limits on the system resources(cgroups in linux and job objects in windows). The idea is to group processes and impose limits    
 
@@ -103,9 +103,9 @@ container creation =client ->daemon->containerd->shim->oci(runc)->container
 - i.e native windows containers (docker container run ..)    
 - hyper-v containers (docker container run .. --isolation=hyperv)
 
-### Working with Images:   
+### Working with Images   
 
-An image is the collection  
+An image is a collection  
 --layer of filesystems  
 --manifest file  
 --appconfig file(which tells how the layers will come together to be a working app)  
