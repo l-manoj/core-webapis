@@ -1,5 +1,5 @@
 # core-webapis
-##Project apiswagger: A simple ASP.Net Core 2.0 web api with docker implementation
+## Project apiswagger: A simple ASP.Net Core 2.0 web api with docker implementation
 ## A collection of asp.net core web apis
 
 ## Containers
@@ -81,41 +81,41 @@ Inter-proc comms (ipc)
 UTS (uts)  
 User (user)
 
-pid namepace gives each container its own isolated process tree completed with its own pid 1
-net namepace gives each container its own isolated network stack like ips, routing tables, etc
-net namepace gives each container its own isolated root file system(ie. C: for windows and / for linux)
-ipc namepace lets all processess in a single container access shared memory but blocks everything from outside
-uts namepace gives each container its own hostname
-user namespace lets map accounts from inside of the container to different users on the host
-Each container is an organized collection of pid, net, mnt, ipc, uts and user.  
-Control groups set limits on the system resources(cgroups in linux and job objects in windows). The idea is to group processes and impose limits. 
+pid namepace gives each container its own isolated process tree completed with its own pid 1  
+net namepace gives each container its own isolated network stack like ips, routing tables, etc  
+net namepace gives each container its own isolated root file system(ie. C: for windows and / for linux)  
+ipc namepace lets all processess in a single container access shared memory but blocks everything from outside  
+uts namepace gives each container its own hostname  
+user namespace lets map accounts from inside of the container to different users on the host  
+Each container is an organized collection of pid, net, mnt, ipc, uts and user   
+Control groups set limits on the system resources(cgroups in linux and job objects in windows). The idea is to group processes and impose limits  
 
-Docker Engine:
+#### Docker Engine:  
  
-DockerEngine=DockerDaemon+containerd+oci(runc on linux) runtime
-General: 
-Client--via rest-->daemon(Docker API)--GRPC API-->containerd(Execution/lifecycle of containers)-->OCI(runtime)--pops-->container
-Linux
-Client-->daemon-->containerd-->runc(oci reference implementation)-->container
-Windows
-Client-->daemon-->compute services-->container
-container creation =client ->daemon->containerd->shim->oci(runc)->container
-Client=dockere.exe, Engine=dockerd.exe
-Windows host has two options for containers 
+DockerEngine = DockerDaemon+containerd+oci(runc on linux) runtime  
+General:   
+Client--via rest-->daemon(Docker API)--GRPC API-->containerd(Execution/lifecycle of containers)-->OCI(runtime)--pops-->container  
+Linux  
+Client-->daemon-->containerd-->runc(oci reference implementation)-->container  
+Windows  
+Client-->daemon-->compute services-->container  
+container creation =client ->daemon->containerd->shim->oci(runc)->container  
+Client=dockere.exe, Engine=dockerd.exe  
+Windows host has two options for containers   
 i.e native windows containers (docker container run ..) and 
 hyper-v containers (docker container run .. --isolation=hyperv)
 
-Working with Images: 
+Working with Images:   
 
-An image is the collection
---layer of filesystems
---manifest file
---appconfig file(which tells how the layers will come together to be a working app)
+An image is the collection  
+--layer of filesystems  
+--manifest file  
+--appconfig file(which tells how the layers will come together to be a working app)  
 
-docker system info
-docker image pull redis
-docker image inspect redis
-docker image rm redis
+docker system info  
+docker image pull redis  
+docker image inspect redis  
+docker image rm redis  
 
 Registry is the place where we store images. Default is DockerHub. 
 With in the Hub, there are repos and repos have images. 
@@ -138,7 +138,7 @@ Best practises:
 Containerizing an App:
 Dockerfile Notes
 - CAPITALIZE instructions
-- <INSTRUCTION> <value>
+- INSTRUCTION value
 - FROM always first instruction
 - FROM = base image
 - Good practise to list maintainer
