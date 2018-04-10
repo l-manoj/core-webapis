@@ -106,3 +106,43 @@ i.e native windows containers (docker container run ..) and
 hyper-v containers (docker container run .. --isolation=hyperv)
 
 Working with Images: 
+
+An image is the collection
+--layer of filesystems
+--manifest file
+--appconfig file(which tells how the layers will come together to be a working app)
+
+docker system info
+docker image pull redis
+docker image inspect redis
+docker image rm redis
+
+Registry is the place where we store images. Default is DockerHub. 
+With in the Hub, there are repos and repos have images. 
+By default latest tag will be pulled for images, but tag assignment to images is a manual thing which means latest tag does not always guarantee the most recent version of image. 
+
+Image layers have three different ids.
+-> A random uid while being stored in the storage driver of the host
+-> Layers of the image are hashed with sha256 referred as content hashes on docker client
+-> When pushed over the internet, content is compressed and have new hashes(sha 256) referred as Distribution hashes. 
+So, not to be confused with differnt ids for the same image layers.
+
+-- Layer id is the sha256 cryptographic key generated for the contents of the layer
+-- Image is the sha256 cryptographic key generated for the manifest file
+
+Best practises:
+-> Use offical images wherever possible
+-> keep your images small
+-> be explicit in referencing images(docker-registry/repo/tags)
+
+Containerizing an App:
+Dockerfile Notes
+- CAPITALIZE instructions
+- <INSTRUCTION> <value>
+- FROM always first instruction
+- FROM = base image
+- Good practise to list maintainer
+- Some instructions add only metadata instead of layers 
+
+
+
