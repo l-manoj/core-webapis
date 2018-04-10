@@ -13,14 +13,14 @@ namespace apisample.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Docker Deep Dive", "This is a test app created to test Docker" };
+            return new string[] { "Docker Deep Dive", "This is a test app created to test Docker", "on windows" };
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "Docker Deep Dive - This is a test api created to test containerizing an application using Docker ";
+            return "Docker Deep Dive - This is a test api created to test containerizing an application using Docker on windows ";
         }
 
         // POST api/values
