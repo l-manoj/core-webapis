@@ -123,7 +123,7 @@ By default latest tag will be pulled for images, but tag assignment to images is
 - A random uid while being stored in the storage driver of the host
 - Layers of the image are hashed with sha256 referred as content hashes on docker client
 - When pushed over the internet, content is compressed and have new hashes(sha 256) referred as Distribution hashes. 
-####### So, not to be confused with differnt ids for the same image layers.
+###### So, not to be confused with differnt ids for the same image layers.
 
 - Layer id is the sha256 cryptographic key generated for the contents of the layer  
 - Image is the sha256 cryptographic key generated for the manifest file  
