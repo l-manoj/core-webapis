@@ -1,0 +1,10 @@
+/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/bin/Debug/netcoreapp2.0/apisample.deps.json
+/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/bin/Debug/netcoreapp2.0/apisample.runtimeconfig.json
+/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/bin/Debug/netcoreapp2.0/apisample.runtimeconfig.dev.json
+/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/bin/Debug/netcoreapp2.0/apisample.dll
+/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/bin/Debug/netcoreapp2.0/apisample.pdb
+/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/obj/Debug/netcoreapp2.0/apisample.csproj.CoreCompileInputs.cache
+/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/obj/Debug/netcoreapp2.0/apisample.AssemblyInfoInputs.cache
+/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/obj/Debug/netcoreapp2.0/apisample.AssemblyInfo.cs
+/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/obj/Debug/netcoreapp2.0/apisample.dll
+/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/obj/Debug/netcoreapp2.0/apisample.pdb
