@@ -144,5 +144,6 @@ Dockerfile Notes
 - Good practise to list maintainer
 - Some instructions add only metadata instead of layers 
 
+#Updated Git User
 
 
