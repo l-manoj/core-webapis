@@ -179,3 +179,24 @@ Container/App Logs
 - Set default logging driver in *daemon.json*
 - Override per container via --log-driver and --log-opts
 - inspect logs with *docker logs _container_*
+
+### Swarm
+Swarm has two parts - Secure Cluster and Orchestration
+Secure Cluster 
+- has nodes as managers and workers
+- managers and workers authenticate mutually via MTLS protocol
+- all network chat is encrypted
+- distributed encrypted cluster store(etcd) availble to all managers (but not to workers) 
+- has cryptographic manager join-token and worker join-token
+
+To acheive quorum, always prefer to have 3, 5 or 7 managers
+
+Swarm Mode - node in a cluster
+Single-Engine mode - node not in a cluster 
+
+Autolock mode:
+Impact
+- disables auto rejoin of managers onto cluster
+- disables 
+
+Orchestration via swarn or kubernetes
