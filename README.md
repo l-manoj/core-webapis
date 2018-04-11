@@ -109,6 +109,8 @@ An image is a collection
 --layer of filesystems  
 --manifest file  
 --appconfig file(which tells how the layers will come together to be a working app)  
+On Linux, images are stored in storage driver   
+On Windows, image are stored at C:/ProgramData/Docker/WindowsFilter  
 
 docker system info  
 docker image pull redis    
@@ -142,4 +144,38 @@ By default latest tag will be pulled for images, but tag assignment to images is
 - Good practise to list maintainer
 - Some instructions add only metadata instead of layers 
 
+### Working with Containers
+  * Container is the smallest unit of work in Docker world  
+  * Container is just a thin writable layer on top of a read-only image(run-time version of an image)   
+  * Container lifecycle is  start, stop, pause, restart, and delete
+  * Containers are not only for microservices but for traditional apps too
+  * Containers should be viewed as ephimeral(short-lived) and immutable 
+ 
+ - Ctrl+P+Q exits a container without actually killing its main process
+ - Default Processess for new containers
+  CMD: Run-time args override cmd args
+  EntryPoint: Run-time args are appended to cmd entrypoint
 
+some commands 
+docker container run -it -p 8080:80 microsoft/aspnetcore-build
+docker container stop _container_  
+docker container start _container_
+docker container rm _container_
+docker container exec _container_ process
+docker port _container_
+
+###### Logging 
+Two types of logs 
+Daemon/Engine Logs
+Linux: 
+- systemd: journalctl -u docker.service
+- nonsystemd: try /var/log/messages
+Windows:
+~/AppData/Local/Docker and WindowsEventLogs
+Container/App Logs
+- Design the application to run as pid 1 and ideally log to stdout and stderr
+- Logs are captured by stdout and stderr
+- Third party log frameworks like syslog, splunk, fluentid can be integrated to stderr and stdout via logging drivers.
+- Set default logging driver in *daemon.json*
+- Override per container via --log-driver and --log-opts
+- inspect logs with *docker logs _container_*
