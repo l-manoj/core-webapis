@@ -20,5 +20,7 @@ sudo apt-get install docker-ce
 sudo docker run hello-world  
 
 Test:  
+sudo usermod -a -G docker ubuser1
+
 logout and login to run as current user  
 docker version  
