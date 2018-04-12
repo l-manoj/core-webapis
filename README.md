@@ -226,13 +226,13 @@ docker swarm update --cert-expiry 48h
 ### Docker Networking
 ###### Refer "Docker Networking" course on Pluralsight
 ##### bridge (linux)/nat(windows) 
-- single host network
+- single host l2network
 - turned on default 
 - each container gets its own ip
 - needs port mapping to talk to other networks even on same host 
 - commonly referred as docker0
 ##### overlay 
-- multi host network (swarm level)
+- multi host l2network (swarm level)
 - control plane is encrypted by default, data plane can be encrypted via (-o encryted flag)
 - but container only
 ##### macvlan(linux)/ transparent(windows)
@@ -243,9 +243,9 @@ docker swarm update --cert-expiry 48h
 - similar to macvlan but does not need promiscuous mode
 - experimental 
 
-Network Services: 
-Service Discovery
-- locate a service in a swarm
+Network Services:  
+Service Discovery  
+- locate a service in a swarm  
 Load Balancing
 - access a service from any node in the swarm 
 
@@ -255,4 +255,7 @@ docker network create -o encrypted -d overlay/bridge --name $networkname
 docker network ls
 docker network inspect $networkname
 docker port $container
+
+
+### Volumes and Persistent Data
 
