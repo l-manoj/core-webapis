@@ -296,19 +296,33 @@ Refer to docs for syntax of compose files
 ###### H/A Scheduling: Spread replicas across multiple nodes 
 
 Common Useful Commands   
-docker stack deploy -c stackfile.yml $name
-docker stack ls 
-docker stack ps $name
-docket stack services $name
+docker stack deploy -c stackfile.yml $name  
+docker stack ls   
+docker stack ps $name  
+docket stack services $name  
 
 ### Enterprise Tooling
-- Docker EE  
-- Universal Control Plane (UCP) UI
-- Docker Trusted Registry (DTR)
-- Role-Based Access Control (RBAC)
-- Subject(Users or Teams) ++ Role(Actions) ++ Collections (pool of resources) ===> Grant 
-- Image Scanning
+- Docker EE    
+- Docker Universal Control Plane (UCP) Operations UI  
+ -- It is a GUI for managing swarm and kubernetes apps  
+ -- It is a microservices based containered app running on top of Docker EE  
+ -- It is a swarm based cluster in which UCP manager handles the control plane and we apps are scheduled UCP workers  
+- Docker Trusted Registry (DTR)  
+ -- Also a containerzed app   
+ -- configure the setup in UCP and get the instructions for deployment on the swarm cluster  
+- Role-Based Access Control (RBAC)  
+ -- Subject (Users or Teams) ++ Role (Actions) ++ Collections (set of resources) ===> Grant   
+- Image Scanning  
+ -- Scans images(on push) against known vulnerabilities  
+- Load Balancing    
+-- Swarm-mode Routing Mesh
+  --- Transport Layer(L4) Load Balancing where in any service on the cluster can be discoverd from any node in the swarm      
+  --- Every Service gets a Virtual IP and all the replicas ips are mapped to the VIP. When a request arrives on the published port in any of the nodes in the cluster, the DNS resolves the request to the VIP and then VIP round-robins within the available replicas  
+-- HTTP Routing Mesh (HRM)  
+  --- Application Layer(L7) Load Balancing allows to publish multiple services on the same swarm wide port and the DNS is resolved by the inspecting http host header      
 
 
-
-
+### Additional Info
+Docker Deep Dive Handbook
+Docker Certified Associate
+Kubernetes
