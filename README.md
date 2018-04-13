@@ -268,8 +268,8 @@ docker volume create $volumename
 docker container run -d --name al --mount source=v1,target=/al alpine sleep 48h  
 
 ### Working with Secrets
-Secrets works in Swarm mode and with services only
-Working: 
+Secrets works in Swarm mode and with services only  
+Working:   
 A secret is sent to the manager via secure channel and stored in the cluster store in its encrypted form.   
 Secret when required by a service is only sent to those nodes that run the replicas via secure channel  
 On Linux nodes, these secrets are stored in-memory in their un-encrypted form and are never persisted to disk  
@@ -277,22 +277,37 @@ Available in memory at /run/secrets/
 On Windows nodes, these secrets are persisted to physical servers  
 Peristed to C:\ProgamData\Docker\Secrets  
 Once worker nodes no longer need the secret, they are instructed to flush them from memory  
-Also, cannnot delete a secret in use  
+Also, cannnot delete a secret in use    
 
-Common Useful Commands
-docker secret create $name $file
-docker secret inspect $name
-docker service create --name svc1 --secret sec1 --replicas 2 ....
+Common Useful Commands  
+docker secret create $name $file  
+docker secret inspect $name  
+docker service create --name svc1 --secret sec1 --replicas 2 ....  
 
-### Deploy with Stacks and Services
-docker stack deploy
+### Deploy with Stacks and Services  
+Highest level of docker application hierarchy  
+Stack file is a compose YAML file 
+Stacks provide a declarative way of defining application state  
+Stack file is defining the desired state of entire application in one place (version,services, newtworks and volumes)  
+Refer to docs for syntax of compose files  
+
+###### Topology-aware scheduling: Schedule based on node labels(like manager or worker etc)
+###### Health-aware scheduling: Only schedule to healthy nodes  
+###### H/A Scheduling: Spread replicas across multiple nodes 
+
+Common Useful Commands   
+docker stack deploy -c stackfile.yml $name
+docker stack ls 
+docker stack ps $name
+docket stack services $name
+
 ### Enterprise Tooling
-Docker EE
-Universal Control Plane (UCP) UI
-Docker Trusted Registry (DTR)
-Role-Based Access Control (RBAC)
-Subject(Users or Teams) ++ Role(Actions) ++ Collections (pool of resources) ===> Grant 
-Image Scanning
+- Docker EE  
+- Universal Control Plane (UCP) UI
+- Docker Trusted Registry (DTR)
+- Role-Based Access Control (RBAC)
+- Subject(Users or Teams) ++ Role(Actions) ++ Collections (pool of resources) ===> Grant 
+- Image Scanning
 
 
 
