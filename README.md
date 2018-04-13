@@ -248,14 +248,22 @@ Service Discovery
 - locate a service in a swarm  
 Load Balancing
 - access a service from any node in the swarm 
-
+ 
 Common Useful Commands
 docker network create -d overlay/bridge $networkname
 docker network create -o encrypted -d overlay/bridge --name $networkname
 docker network ls
 docker network inspect $networkname
 docker port $container
+docker service ps $servicename  
+docker service create -d --name sv1 --replicas 3 --network ol1 alpine sleep 48h
 
 
 ### Volumes and Persistent Data
+Volumes live on graph driver of the host
+As long as the storage supports docker driver, any volume can be plugged into containers
+Also supports SAN and NAS storage mounts
+docker volume create $volumename
+docker container run -d --name al --mount source=v1,target=/al alpine sleep 48h
+
 
