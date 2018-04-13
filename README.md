@@ -323,6 +323,6 @@ docket stack services $name
 
 
 ### Additional Info
-Docker Deep Dive Handbook
-Docker Certified Associate
-Kubernetes
+- Docker Deep Dive Handbook  
+- Docker Certified Associate  
+- Kubernetes  
