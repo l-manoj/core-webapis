@@ -260,10 +260,40 @@ docker service create -d --name sv1 --replicas 3 --network ol1 alpine sleep 48h
 
 
 ### Volumes and Persistent Data
-Volumes live on graph driver of the host
-As long as the storage supports docker driver, any volume can be plugged into containers
-Also supports SAN and NAS storage mounts
-docker volume create $volumename
-docker container run -d --name al --mount source=v1,target=/al alpine sleep 48h
+Volumes live on graph driver of the host  
+As long as the storage supports docker driver, any volume can be plugged into containers  
+Also supports SAN and NAS storage mounts  
+Common Useful Commands  
+docker volume create $volumename  
+docker container run -d --name al --mount source=v1,target=/al alpine sleep 48h  
+
+### Working with Secrets
+Secrets works in Swarm mode and with services only
+Working: 
+A secret is sent to the manager via secure channel and stored in the cluster store in its encrypted form.   
+Secret when required by a service is only sent to those nodes that run the replicas via secure channel  
+On Linux nodes, these secrets are stored in-memory in their un-encrypted form and are never persisted to disk  
+Available in memory at /run/secrets/
+On Windows nodes, these secrets are persisted to physical servers  
+Peristed to C:\ProgamData\Docker\Secrets  
+Once worker nodes no longer need the secret, they are instructed to flush them from memory  
+Also, cannnot delete a secret in use  
+
+Common Useful Commands
+docker secret create $name $file
+docker secret inspect $name
+docker service create --name svc1 --secret sec1 --replicas 2 ....
+
+### Deploy with Stacks and Services
+docker stack deploy
+### Enterprise Tooling
+Docker EE
+Universal Control Plane (UCP) UI
+Docker Trusted Registry (DTR)
+Role-Based Access Control (RBAC)
+Subject(Users or Teams) ++ Role(Actions) ++ Collections (pool of resources) ===> Grant 
+Image Scanning
+
+
 
 
