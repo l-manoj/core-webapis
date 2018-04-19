@@ -13094,29 +13094,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/laxmimanojkumarpoonati/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\vend_mkumar\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apiswagger/apiswagger.csproj",
+      "projectUniqueName": "d:\\Workspace\\core-webapis\\apiswagger\\apiswagger.csproj",
       "projectName": "apiswagger",
-      "projectPath": "/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apiswagger/apiswagger.csproj",
-      "packagesPath": "/Users/laxmimanojkumarpoonati/.nuget/packages/",
-      "outputPath": "/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apiswagger/obj/",
+      "projectPath": "d:\\Workspace\\core-webapis\\apiswagger\\apiswagger.csproj",
+      "packagesPath": "C:\\Users\\vend_mkumar\\.nuget\\packages\\",
+      "outputPath": "d:\\Workspace\\core-webapis\\apiswagger\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/laxmimanojkumarpoonati/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\vend_mkumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://wnbvsts.pkgs.visualstudio.com/_packaging/PaymentServices/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -13132,38 +13135,38 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
-          },
           "Faker.net": {
             "target": "Package",
-            "version": "1.0.3"
+            "version": "[1.0.3, )"
           },
           "Mailkit": {
             "target": "Package",
-            "version": "1.22.0"
-          },
-          "Microsoft.aspnet.webapi.core": {
-            "target": "Package",
-            "version": "5.2.3"
+            "version": "[1.22.0, )"
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
+          },
+          "Microsoft.aspnet.webapi.core": {
+            "target": "Package",
+            "version": "[5.2.3, )"
           },
           "Swashbuckle": {
             "target": "Package",
-            "version": "5.6.0"
+            "version": "[5.6.0, )"
           },
           "Swashbuckle.aspnetcore": {
             "target": "Package",
-            "version": "1.1.0"
+            "version": "[1.1.0, )"
           },
           "System.Linq": {
             "target": "Package",
-            "version": "4.3.0"
+            "version": "[4.3.0, )"
           }
         },
         "imports": [
@@ -13175,6 +13178,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNet.WebApi.WebHost 4.0.20710 requires Microsoft.AspNet.WebApi.Core (>= 4.0.20710 && < 4.1.0) but version Microsoft.AspNet.WebApi.Core 5.2.3 was resolved.",
+      "libraryId": "Microsoft.AspNet.WebApi.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
