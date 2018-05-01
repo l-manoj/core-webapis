@@ -9,4 +9,10 @@ It contains
 - Multi-Factor Authentication
 - Enternal Identity Providers
 
-
+Identity !=Permissions
+Identity != Authentication
+-- Authentication must be handled by cookies or open id connect tokens 
+-- though Identity has auhentication libraries and can be used to validate authentication credentials, 
+   it is not responsible for authenctication 
+Identity != IdentityServer 
+--Identity is user store and IdentityServer offers protocol support for open id connect
