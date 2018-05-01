@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Workspace\\core-webapis\\apisample\\apisample.csproj",
+      "projectUniqueName": "D:\\Workspace\\core-webapis\\apisample\\apisample.csproj",
       "projectName": "apisample",
-      "projectPath": "d:\\Workspace\\core-webapis\\apisample\\apisample.csproj",
+      "projectPath": "D:\\Workspace\\core-webapis\\apisample\\apisample.csproj",
       "packagesPath": "C:\\Users\\vend_mkumar\\.nuget\\packages\\",
-      "outputPath": "d:\\Workspace\\core-webapis\\apisample\\obj\\",
+      "outputPath": "D:\\Workspace\\core-webapis\\apisample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

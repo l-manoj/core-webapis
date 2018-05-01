@@ -8,3 +8,13 @@
 /Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/obj/Debug/netcoreapp2.0/apisample.AssemblyInfo.cs
 /Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/obj/Debug/netcoreapp2.0/apisample.dll
 /Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/obj/Debug/netcoreapp2.0/apisample.pdb
+D:\Workspace\core-webapis\apisample\bin\Debug\netcoreapp2.0\apisample.deps.json
+D:\Workspace\core-webapis\apisample\bin\Debug\netcoreapp2.0\apisample.runtimeconfig.json
+D:\Workspace\core-webapis\apisample\bin\Debug\netcoreapp2.0\apisample.runtimeconfig.dev.json
+D:\Workspace\core-webapis\apisample\bin\Debug\netcoreapp2.0\apisample.dll
+D:\Workspace\core-webapis\apisample\bin\Debug\netcoreapp2.0\apisample.pdb
+D:\Workspace\core-webapis\apisample\obj\Debug\netcoreapp2.0\apisample.csproj.CoreCompileInputs.cache
+D:\Workspace\core-webapis\apisample\obj\Debug\netcoreapp2.0\apisample.AssemblyInfoInputs.cache
+D:\Workspace\core-webapis\apisample\obj\Debug\netcoreapp2.0\apisample.AssemblyInfo.cs
+D:\Workspace\core-webapis\apisample\obj\Debug\netcoreapp2.0\apisample.dll
+D:\Workspace\core-webapis\apisample\obj\Debug\netcoreapp2.0\apisample.pdb
