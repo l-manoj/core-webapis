@@ -12533,32 +12533,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vend_mkumar\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/laxmimanojkumarpoonati/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\core-webapis\\apisample\\apisample.csproj",
+      "projectUniqueName": "/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/apisample.csproj",
       "projectName": "apisample",
-      "projectPath": "D:\\Workspace\\core-webapis\\apisample\\apisample.csproj",
-      "packagesPath": "C:\\Users\\vend_mkumar\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\core-webapis\\apisample\\obj\\",
+      "projectPath": "/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/apisample.csproj",
+      "packagesPath": "/Users/laxmimanojkumarpoonati/.nuget/packages/",
+      "outputPath": "/Users/laxmimanojkumarpoonati/Projects/github/core-webapis/apisample/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\vend_mkumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/laxmimanojkumarpoonati/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://wnbvsts.pkgs.visualstudio.com/_packaging/PaymentServices/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -12574,14 +12571,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0.0",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.0"
           }
         },
         "imports": [

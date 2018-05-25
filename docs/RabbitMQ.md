@@ -1,8 +1,4 @@
 # RabbitMQ
-RabbitMq initial spin up can be a btach job
-Queue declaration and Exchange declaration in RabbitMQ is idempotent
-Queues and exchanges should be durable
-Queues messages should be persisted
 
 ## Introduction RabbitMQ
 ### What is RabbitMQ?  
@@ -29,3 +25,12 @@ Publisher -------> Exchange ----routes/bindings----> Queue ----subscribes/acknow
 ### Exchanges 
 
 
+## Architecture Notes
+### Notes
+-- RabbitMQ initial spin up can be done with a batch job    
+-- Queue and Exchange declaration in RabbitMQ is idempotent  
+-- Queues should be durable  
+-- Queue messages should be persisted  
+### Useful Commands
+docker container run -d --hostname my-rabbit --name rmq rabbitmq:3  
+docker container run -d --hostname my-rabbit -p 8080:15672 --name rmqm rabbitmq:3-management  
