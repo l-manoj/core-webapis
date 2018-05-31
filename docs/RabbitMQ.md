@@ -18,10 +18,10 @@ web ui to manage message broker and HTTP api to manage rabbitmq
 
 ## Introduction to RabbitMQ Exchanges
 ### AMQP Protocol
-Networking protocol
-RabbitMQ supports version 0-9-1
-enables client applications to communicate with compatible messaging system
-Publisher -------> Exchange ----routes/bindings----> Queue ----subscribes/acknowledges----> Consumer
+-- Networking protocol  
+-- RabbitMQ supports version 0-9-1  
+-- enables client applications to communicate with compatible messaging system  
+Publisher -------> Exchange ----routes/bindings----> Queue ----subscribes/acknowledges----> Consumer  
 ### Exchanges 
 
 
@@ -34,3 +34,5 @@ Publisher -------> Exchange ----routes/bindings----> Queue ----subscribes/acknow
 ### Useful Commands
 docker container run -d --hostname my-rabbit --name rmq rabbitmq:3  
 docker container run -d --hostname my-rabbit -p 8080:15672 --name rmqm rabbitmq:3-management  
+
+docker container run -d -p 5672:5672 -v /Users/laxmimanojkumarpoonati/Projects/c1/rabbitmq.conf :/etc/rabbitmq/rabbitmq.config --hostname myrabbit rmq
