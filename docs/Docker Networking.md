@@ -27,8 +27,8 @@ docker container run -d -p 8080:80 --name nginx2 nginx
 - bridge n/ws are single host
 - bridge driver creates a 802.1d bridge device on the docker host  
 - creating a bridge network is going to create a virtual switch or virtual bridge on the docker host
-- vswitch is kerner feature on linux that is mature/stable and fast 
-- container within a network are pingable by name 
+- vswitch is kernel feature on linux that is mature/stable and fast 
+- containers within a network are pingable by name 
 - to communicate with containers within a network from outside, a port needs to be published onto the docker host
 ### Multi-host networking (builtin OVERLAY n/w)
 ### Working with existing workloads (MACVLAN and IPVLAN)
