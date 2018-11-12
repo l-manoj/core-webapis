@@ -54,7 +54,7 @@ Nodes is where the actual applications are run.
 #### Services
 #### Deployments
 
-### Installing Kubernertes
+### Installing k8s
 
 ### Working with Pods
 
