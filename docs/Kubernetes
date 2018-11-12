@@ -1,0 +1,32 @@
+Overview
+What is Kubernetes?
+Kuberenets is an orchestrator for deploying containerized microservices.
+Kubernetes Architecture
+Master
+master manages the cluster
+It has for main components
+kube-apiserver
+cluster store
+kube-controller-manager
+kube-scheduler
+
+Talk only with apiserver usually via kubelet command line utility. 
+kubelet takes a yaml/json deployment file.
+Nodes
+kubelet: Main kubernetes agent on the node
+container-runtime
+kube-proxy
+Declarative/desired state
+Kubernetes works on the concept of declarative(vs iterative) state declaration
+Pods
+Atomic unit of work in Kubernetes
+Pods cannot be shared across nodes. 
+Pod is a ring-fenced environment with its own namespaces and filesystems, which means all containers in the pod share the same ip. 
+We have to identify different conatiners via port mapping. 
+Pods are created and dead. A pod is never restarted.
+Services
+Deployments
+Installing Kubernertes
+Working with Pods
+Services
+Deployments
