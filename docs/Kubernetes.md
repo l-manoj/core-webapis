@@ -2,7 +2,7 @@
 ## Overview
 - Born out of Google
 - Open sourced to CNSF in 2014
-- Version 1 release in 2015
+- Version 1 released in 2015
 - Written in GoLang
 - Github: https://github.com/kubernetes/kubernetes 
 
