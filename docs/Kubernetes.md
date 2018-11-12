@@ -11,9 +11,8 @@
 
 ### Kubernetes Architecture
 #### Master
-- master manages the cluster
-- It has for main components
-##### kube-apiserve
+Master manages the cluster. It has four main components
+##### kube-apiserver
 - main front-end of the k8s cluster
 - exposes rest api and accepts json
 - only public facing component of k8s cluster
