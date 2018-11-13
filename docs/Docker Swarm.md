@@ -15,7 +15,7 @@ Problems with single node hosting
 -- consider options for reloacting containers  
 -- node maintenance  
 - Internal Communication  
--- if an app requires container to container communication then 
+-- if an app requires container to container communication then   
   --- in production each of those microservices have to be load balanced  
   --- in dev we can either expose all apis to host and map the published host port via env variable 
       or we can create a bridge n/w and map with api name(as service discovery will resolve the app name via embedded dns)
