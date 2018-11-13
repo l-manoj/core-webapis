@@ -10,7 +10,7 @@ Problems with single node hosting
 - Container Failure  
 -- restart policy can be setup but tedious job  
 - Node Failure  
--- need strategy to redistribute containers upon node failure
+-- need strategy to redistribute containers upon node failure  
 -- plan to replace node  
 -- consider options for reloacting containers  
 -- node maintenance  
