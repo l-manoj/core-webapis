@@ -45,14 +45,21 @@ Nodes is where the actual applications are run.
 - manages node networks on the cluster
 - also manages low-level load balancing across pods and services
 #### Declarative/desired state
-- Kubernetes works on the concept of declarative(vs iterative) state declaration
+- Kubernetes works on the concept of declarative(vs iterative) state   
 #### Pods
 - Atomic unit of work in Kubernetes
+- k8s unit of scaling is also a Pod
 - Pod is a ring-fenced environment with its own namespaces and filesystems, which means all containers in the pod share the same network and ip address. Therefore, we have to identify different containers via port mapping. 
 - Pods cannot be shared across nodes  
-- Pods are created and dead. A pod is never restarted.
+- Upon creation a pod runs and dies. A pod is never restarted.
 #### Services
+- services are k8s object whichhekp to load balance across pods
+- services uses labels to acheive this load balancing
+- services only route traffic to healthy pods
 #### Deployments
+- a deployment is also a k8s object which makes it easy to deploy multi-containerized app
+- deployment is an abstraction over replication controller with additional features
+- 
 
 ### Installing k8s
 
