@@ -30,9 +30,10 @@ Master manages the cluster. It has four main components
 - schedules the pods on workers  
 
 Communication to master is through apiserver only via kubectl command line utility.  
-kubelet takes a yaml/json deployment file   
-#### Nodes
-Nodes is where the actual applications are run. 
+kubectl takes a yaml/json deployment file   
+#### Nodes/Minions
+Nodes is where the actual work is run.   
+Every node has its own set of default pods like health, logging, dns etc  
 ##### kubelet
 - main kubernetes agent on the node. 
 - registers the node with cluster 
@@ -42,7 +43,7 @@ Nodes is where the actual applications are run.
 - Pluggable  
 - Default is docker and other option is rkt  
 ##### kube-proxy
-- manages node networks on the cluster
+- manages networks on the cluster
 - also manages low-level load balancing across pods and services
 #### Declarative/desired state
 - Kubernetes works on the concept of declarative(vs iterative) state   
@@ -52,14 +53,21 @@ Nodes is where the actual applications are run.
 - Pod is a ring-fenced environment with its own namespaces and filesystems, which means all containers in the pod share the same network and ip address. Therefore, we have to identify different containers via port mapping. 
 - Pods cannot be shared across nodes  
 - Upon creation a pod runs and dies. A pod is never restarted.
+#### Replication controllers
+- replication controllers are k8s rest objects that are used to scale pods,maintain desired state etc 
 #### Services
-- services are k8s object whichhekp to load balance across pods
+- services are k8s rest object which help to load balance across pods providing stable networking
 - services uses labels to acheive this load balancing
 - services only route traffic to healthy pods
+- can be configured for session affinity in yaml file
+- can point to things outside the cluster
+- services perform random load balancing (dns round-robin is supported)
+- default to TCP (udp is supported) 
 #### Deployments
-- a deployment is also a k8s object which makes it easy to deploy multi-containerized app
+- a deployment is also a k8s rest object which makes it easy to deploy multi-containerized app
 - deployment is an abstraction over replication controller with additional features
-- 
+- self documenting, versioned, spec-once deploy-may, simple rolling updates and rollbacks
+- a deployment is a REST object deployed via yaml/json manifest file, adds features to replication controllers and deployed via the apiserver
 
 ### Installing k8s
 
