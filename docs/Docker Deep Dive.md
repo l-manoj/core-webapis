@@ -36,7 +36,7 @@ Below are linux namespaces
 ###### Control groups set limits on the system resources(cgroups in linux and job objects in windows). The idea is to group processes and impose limits    
 
 #### Docker Engine:  
- 
+###### Docker Machine is the command line used to manage mutiple container hosts remotely 
 ###### DockerEngine = DockerDaemon+containerd+oci(runc on linux) runtime  
 ###### General:   
 Client--via rest-->daemon(Docker API)--GRPC API-->containerd(Execution/lifecycle of containers)-->OCI(runtime)--pops-->container  
