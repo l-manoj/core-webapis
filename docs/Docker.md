@@ -1,6 +1,17 @@
-# Docker Networking
+# Docker
+## Docker Registry
+- Registry is the place to store and retrive containers
+- Official docker container registry is DockerHub
+- Images are stored in repos
+- Repos can be public/private
+- Permissions can be setup on who/how to manage repos via teams, organisations
+- Third party registries are also available like Quay from CoreOs, Azure, AWS and Google container registries
+- Docker Trusted Registry(DTR) is a private on-prem inside the firewall registry that can be setup via Docker EE 
+- DockerHub also provide Docker Content Trust
+- Docker Content Trust validates the image integrity and verifies publisher identity
 
-## Introduction
+## Docker Networking
+### Introduction
 
 Container Networking Model(CNM) --> Libnetwork --> Drivers  
 
@@ -21,8 +32,8 @@ docker network create -d bridge --subnet 10.0.0.1/24 lm-bridge
 docker container run -d --name alpine1 --network lm-bridge alpine sleep 1d   
 docker container run -d -p 8080:80 --name nginx2 nginx  
 
-## Drivers and Use Cases
-### Single-host networking (builtin BRIDGE n/w)
+### Drivers and Use Cases
+#### Single-host networking (builtin BRIDGE n/w)
 - On Linux, bridge driver On Windows, nat driver 
 - bridge n/ws are single host
 - bridge driver creates a 802.1d bridge device on the docker host  
@@ -30,5 +41,5 @@ docker container run -d -p 8080:80 --name nginx2 nginx
 - vswitch is kernel feature on linux that is mature/stable and fast 
 - containers within a network are pingable by name 
 - to communicate with containers within a network from outside, a port needs to be published onto the docker host
-### Multi-host networking (builtin OVERLAY n/w)
-### Working with existing workloads (MACVLAN and IPVLAN)
+#### Multi-host networking (builtin OVERLAY n/w)
+#### Working with existing workloads (MACVLAN and IPVLAN)
