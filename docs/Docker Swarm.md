@@ -56,6 +56,7 @@ Note: If your only intention is to prevent a service from being deployed, scale 
 There are two types of service deployments, 
 - replicated: For a replicated service, you specify the number of identical tasks you want to run  
 - global: A global service is a service that runs one task on every node.  Good candidates are monitoring agents, an anti-virus scanners     
+Swarm mode routing mesh publishes a port on every single node in the swarm, thereby when request arrives at any node they are routed to swarm load balancer and this will send the request to the appropriate container.
 
 
 
