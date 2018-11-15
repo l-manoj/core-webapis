@@ -43,3 +43,12 @@ docker container run -d -p 8080:80 --name nginx2 nginx
 - to communicate with containers within a network from outside, a port needs to be published onto the docker host
 #### Multi-host networking (builtin OVERLAY n/w)
 #### Working with existing workloads (MACVLAN and IPVLAN)
+
+#### Useful info
+##### Docker Expose vs Docker Publish
+Exposing a port means the container listens to traffic on that port within the same nw. Note that only connections within the same network are allowed and connections from containers on other nws and host are not allowed. 
+Publishing a port maps the host port to the container port, so that all traffic to host on that port will be sent to container
+##### Docker Compose vs Docker Stack
+Dcoker-compose is a python project that is a separate installation beside docker engine. It is used to deploy multi-containerized apps on single docker engine. It doesnot work in swarm mode. 
+Docker stack is integrated into docker engine, no separate installation needed. It is used to deploy multi-containerized apps across docker swarm. It work only in swarm mode. 
+Both work with compose.yml files, but Compose supports both version 2 and 3, where as Stack supports only version 3. 
