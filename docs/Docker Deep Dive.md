@@ -128,47 +128,47 @@ Container/App Logs
 - inspect logs with *docker logs _container_*
 
 ### Swarm
-Swarm is a secure cluster of docker nodes
-Swarm has two parts - Secure Cluster and Orchestration
-Secure Cluster 
-- has nodes as managers and workers
+Swarm is a secure cluster of docker nodes  
+Swarm has two parts - Secure Cluster and Orchestration  
+###### Secure Cluster   
+- has nodes as managers and workers  
 - managers and workers authenticate mutually via MTLS protocol
 - all network chat is encrypted
 - has distributed encrypted cluster store(etcd) available to all managers (but not to workers) 
 - has cryptographic manager join-token and worker join-token
-- can handle native swarn work or kubernetes work
+- can handle native swarm work or kubernetes work
 
 ###### To acheive quorum, always prefer to have 3, 5 or 7 managers
 ###### Swarm Mode refers to a node in a cluster
 ###### Single-engine mode refers to a node not in a cluster 
 ###### Within in a swarm, all the distribution consensus is handled by raft
-Autolock mode:
-Impact
-- prevents mangegers from auto rejoin onto cluster
-- prevents automatically restoring old copy of swarm 
+Autolock mode:  
+Impact  
+- prevents mangegers from auto rejoin onto cluster  
+- prevents automatically restoring old copy of swarm   
 
-- Orchestration can be done via swarn or kubernetes
-###### enerate a ssh key-pair : ssh-keygen -t rsa -b 2048
+###### Orchestration can be done via swarn or kubernetes
+###### Generate a ssh key-pair : ssh-keygen -t rsa -b 2048
 
-First manager in a cluster is elected as a leader.
-- It is the root ca 
-- builds a cluster store
-- issues a client certificate
-- built in certificate rotation policy 
-Common commands
-docker system info  
-docker swarm init   
-docker swarm init --external-ca  ..
-docker swarm join  
-docker node ls  
-docker swarm join-token manager
-docker swarm join-token worker 
-docker swarm join-token --rotate worker
-docker swarm init --autolock
-docker swarm update --autolock=true  
-service docker restart  
-docker swarm unlock   
-docker swarm update --cert-expiry 48h  
+First manager in a cluster is elected as a leader.  
+- It is the root ca   
+- builds a cluster store  
+- issues a client certificate  
+- built in certificate rotation policy   
+Common commands  
+docker system info    
+docker swarm init     
+docker swarm init --external-ca  ..  
+docker swarm join    
+docker node ls    
+docker swarm join-token manager  
+docker swarm join-token worker   
+docker swarm join-token --rotate worker  
+docker swarm init --autolock  
+docker swarm update --autolock=true    
+service docker restart    
+docker swarm unlock     
+docker swarm update --cert-expiry 48h    
 
 ### Docker Networking
 ###### Refer "Docker Networking" course on Pluralsight
