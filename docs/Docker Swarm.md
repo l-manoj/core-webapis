@@ -1,5 +1,5 @@
 # Docker Swarm 
-Getting Started with Docker Swarm Mode
+Getting Started with Docker Swarm Mode  
 https://app.pluralsight.com/library/courses/docker-swarm-mode-getting-started/table-of-contents
 
 ## Need for multiple container hosts?
@@ -23,18 +23,20 @@ Problems with single node hosting
 ## Swarm creation and service basics
 set the 'experimental features' flag in daemon settings to use experimental features    
 docker swarm init --starts the swarm mode   
-docker info --chek if swarmm is running or not  
+docker info --chek if swarm is running or not  
 docker node ls --list all nodes in swarm  
 docker node --help --for further commands  
-dokker service ls --list taks in service  
+dokker service ls --list tasks in service  
 docker service ps --list containers in service  
 docker service rm --remove a task   
 docker service update --{options} -- to update a service  
-docker service scale {servicename}={noofreplicas} --servers the same purpose of docker service update --repplicas={noof} {servicename}  
-A service is a declartive definition of an application.    
-It can contain info regarding port mapping, network, cpu/memory limits, rolling update policy and replicas.   
+docker service scale {servicename}={noofreplicas} --serves the same purpose of docker service update --replicas={noof} {servicename}  
+
+A service is a declartive definition of an application.      
+It can contain info regarding port mapping, network, cpu/memory limits, rolling update policy and replicas.     
 A task is the atomic unit of scheduling within a swarm. A set of tasks form a service or services leads to tasks.  
-Swarm manager takes the service definations as desired state ans ensures desired state is maintained. 
+Swarm manager takes the service definations as desired state and ensures desired state is always maintained. 
+
 Swarm manager flow:   
 docker service create -->   
 api (accepts commands and creates service object)-->   
@@ -47,7 +49,7 @@ worker(runs container) --connects to dispatcher and looks for assigned tasks
 executor --executes tasks assigned to worker node  
 Hypothetically, you could implement other types of tasks such as virtual machine tasks or non-containerized process tasks. The scheduler and orchestrator are agnostic about the type of task. However, the current version of Docker only supports container tasks.  
 
-A service can be in pedning status for several reasons, say, nodes unaavilable, memory/placement constraints, etc.  
+A service can be in pending status for several reasons, say, nodes unavailable, memory/placement constraints, etc.  
 Note: If your only intention is to prevent a service from being deployed, scale the service to 0 instead of trying to configure it in such a way that it remains in pending.  
 
 ### Replicated and global services
